@@ -127,6 +127,84 @@
       </div>
 
       <!-- Resume -->
+      <div id="resume" class="collapse">
+        <div class="card card-block card-success text-white py-5">
+          <h2>Meu Currículo</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nihil
+            omnis expedita! Dicta, sunt omnis.
+          </p>
+        </div>
+        <div class="card card-block py-5">
+          <h3>Onde Trabalhei?</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+            incidunt perferendis illo labore optio dolores.
+          </p>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-block">
+                <h4 class="card-title">DevMasters</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis, dolor!
+                </p>
+                <p class="p-2 mb-3 bg-inverse text-white">
+                  Cargo: Full Stack Developer
+                </p>
+                <p class="p-2 mb-3 bg-inverse text-white">
+                  Telefone: (55) 55555-5555
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">
+                  Período: 2015 - 2017
+                </h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-block">
+                <h4 class="card-title">Websites Pro</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis, dolor!
+                </p>
+                <p class="p-2 mb-3 bg-inverse text-white">
+                  Cargo: Front End Developer
+                </p>
+                <p class="p-2 mb-3 bg-inverse text-white">
+                  Telefone: (44) 44444-4444
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">
+                  Período: 2013 - 2015
+                </h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-block">
+                <h4 class="card-title">123 Designs</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis, dolor!
+                </p>
+                <p class="p-2 mb-3 bg-inverse text-white">
+                  Cargo: Designer
+                </p>
+                <p class="p-2 mb-3 bg-inverse text-white">
+                  Telefone: (33) 33333-3333
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">
+                  Período: 2010 - 2013
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- Work -->
 
@@ -146,5 +224,10 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(".port-item").on("click", () => {
+        $(".collapse").collapse("hide");
+      });
+    </script>
   </body>
 </html>
