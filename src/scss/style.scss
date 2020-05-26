@@ -36,3 +36,10 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .port-item {
+    font-size: 14px;
+    padding: 1.5rem 1rem !important;
+  }
+}

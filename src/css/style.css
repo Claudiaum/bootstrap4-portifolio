@@ -23,3 +23,8 @@
 @media (min-width: 991px) {
   .name .fa {
     font-size: 25px; } }
+
+@media (max-width: 576px) {
+  .port-item {
+    font-size: 14px;
+    padding: 1.5rem 1rem !important; } }
